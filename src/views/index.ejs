@@ -1,26 +1,54 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="UTF-8" />
     <title>title</title>
-</head>
-<body>
+  </head>
+  <body>
     <!DOCTYPE html>
     <html>
-        <head>
-            <title>Sign In</title>
-        </head>
-        <body>
-            <div style="text-align: center;">
-            <h2>Supply the following information to use the api:</h2>
-             <form name="signin" action="/auth/signIn" method="post" style="max-width: 300px; margin: 0 auto;">
-                 <input type="text" name="user_name" placeholder="User name" style="width: 100%; padding: 10px; margin-bottom: 10px;"><br>
-                 <input type="text" name="api_secret_key" placeholder="API secret key" style="width: 100%; padding: 10px; margin-bottom: 10px;"><br>
-                 <input type="submit" value="Sign In" style="width: 100%; background-color: #3498db; color: white; border: none; border-radius: 3px; cursor: pointer;" />
-             </form>
-         </div>
-     </body>
-     </html>
-     
-</body>
+      <head>
+        <title>Sign In</title>
+      </head>
+      <body>
+        <div style="text-align: center">
+          <% if (error) { %>
+          <h1><font color="red"><%= error.message %></font></h1>
+          <% } %>
+          <h2>Supply the following information to use the api:</h2>
+          <form
+            name="signin"
+            action="/auth/signIn"
+            method="post"
+            style="max-width: 300px; margin: 0 auto"
+          >
+            <input
+              type="text"
+              name="user_name"
+              placeholder="User name"
+              style="width: 100%; padding: 10px; margin-bottom: 10px"
+            /><br />
+            <input
+              type="text"
+              name="api_secret_key"
+              placeholder="API secret key"
+              style="width: 100%; padding: 10px; margin-bottom: 10px"
+            /><br />
+            <input
+              type="submit"
+              value="Sign In"
+              style="
+                width: 100%;
+                background-color: #3498db;
+                color: white;
+                border: none;
+                border-radius: 3px;
+                cursor: pointer;
+              "
+            />
+          </form>
+        </div>
+      </body>
+    </html>
+  </body>
 </html>
