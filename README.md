@@ -5,7 +5,7 @@ This project provides the following analysis for email text:
 - **Summary**
 - **Sentiment**
 - **Sender Awaiting Response**
-- 
+
 Each list item is presented with a bullet point and surrounded by ** for bold formatting. This structure will render the list on separate lines when viewed in a Markdown viewer or rendered in a Markdown-compatible environment.
 
 ## Project Overview
