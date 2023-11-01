@@ -28,13 +28,6 @@ Ensure that the input prompts are well-crafted to guide the model effectively an
 - **Define the Output:** Request the output in a specific format (e.g., JSON) or provide clear instructions for the desired format.
 - **Provide an Example:** Offering an example of the expected output can guide the model and ensure better understanding.
 
-## Project Repository
-
-Explore the project on: [GitHub](https://github.com/mutty320/Email-analysis-with-openAI). Fork, clone, or contribute!
-
-## Tags
-#NLP, #OpenAI, #EmailAnalysis, #SentimentAnalysis
-
 ## Run project
 
 Open your Terminal and run these commands:
@@ -45,3 +38,9 @@ npm install
 ```sh
 npm start
 ```
+## Project Repository
+
+Explore the project on: [GitHub](https://github.com/mutty320/Email-analysis-with-openAI). Fork, clone, or contribute!
+
+## Tags
+#NLP, #OpenAI, #EmailAnalysis, #SentimentAnalysis
