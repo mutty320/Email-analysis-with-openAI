@@ -29,7 +29,8 @@ Ensure that the input prompts are well-crafted to guide the model effectively an
 - **Provide an Example:** Offering an example of the expected output can guide the model and ensure better understanding.
 
 ## Project Repository
-[GitHub] (https://github.com/mutty320/Email-analysis-with-openAI)Fork, clone, or contribute!
+
+Explore the project on: [GitHub](https://github.com/mutty320/Email-analysis-with-openAI). Fork, clone, or contribute!
 
 ## Tags
 #NLP, #OpenAI, #EmailAnalysis, #SentimentAnalysis
