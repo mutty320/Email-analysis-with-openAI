@@ -17,7 +17,7 @@ const {
   summarize_tokens,
   sentiment_tokens,
   awaitingResponse_tokens
-}  = require(path.join(__dirname, '..', 'data', 'constants'));
+}  = require(path.join(__dirname, '..', 'utilities', 'constants'));
 
 async function connectApi(emailText, prompt, max_tokens) {
   try {
