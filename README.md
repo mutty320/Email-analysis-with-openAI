@@ -1,10 +1,13 @@
 # Welcome to Email Analyzer!
 
 ## Introduction
-This project provides the following analysis for email text: 
--**Summary**
--**Sentiment**
--**Sender Awaiting Response**
+This project provides the following analysis for email text:
+- **Summary**
+- **Sentiment**
+- **Sender Awaiting Response**
+- 
+Each list item is presented with a bullet point and surrounded by ** for bold formatting. This structure will render the list on separate lines when viewed in a Markdown viewer or rendered in a Markdown-compatible environment.
+
 ## Project Overview
 The project's goal is to process email text input and produce analysis in the three specified categories. 
 By leveraging OpenAI's text-davinci-003 model, it aims to provide detailed insights into the text data.
@@ -26,7 +29,7 @@ Ensure that the input prompts are well-crafted to guide the model effectively an
 - **Provide an Example:** Offering an example of the expected output can guide the model and ensure better understanding.
 
 ## Project Repository
-[GitHub](https://github.com/mutty320/Email-analysis-with-openAI)Fork, clone, or contribute!
+[GitHub] (https://github.com/mutty320/Email-analysis-with-openAI)Fork, clone, or contribute!
 
 ## Tags
 #NLP, #OpenAI, #EmailAnalysis, #SentimentAnalysis
