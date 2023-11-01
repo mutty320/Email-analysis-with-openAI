@@ -7,7 +7,6 @@ const bodyParser = require("body-parser");
 var urlencodedParser = bodyParser.urlencoded({ extended: false });
 //=================================================================
 const openaiEndpoint = "https://api.openai.com/v1/completions"
- // "https://api.openai.com/v1/engines/text-davinci-003/completions";
 
 const {
   headers,
