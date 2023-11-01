@@ -3,7 +3,7 @@ require("dotenv").config();
 
 const bodyParser = require("body-parser");
 var urlencodedParser = bodyParser.urlencoded({ extended: false });
-
+error = null
 const authRouter = express.Router();
 authRouter.route("/signIn").post(urlencodedParser, (req, res) => {
   const { user_name, api_secret_key } = req.body;
@@ -14,7 +14,7 @@ authRouter.route("/signIn").post(urlencodedParser, (req, res) => {
   ) {
     res.render("submitText");
   } else {
-    const error = {
+      error = {
       message:
         "Unauthorized, you provided Incorrect username or Incorrect key",
     };
