@@ -38,11 +38,11 @@ npm install
 ```sh
 npm start
 ```
-## Project Git Repository
+## Git Repository
 
 Explore the project on: [GitHub](https://github.com/mutty320/Email-analysis-with-openAI). Fork, clone, or contribute!
 
-## Project docker Repository
+## Docker Repository
 Pull the docker image from [Docker-Image](https://hub.docker.com/repository/docker/ozgav/email-analysis/tags?page=1&ordering=last_updated)
 
 ## Tags
