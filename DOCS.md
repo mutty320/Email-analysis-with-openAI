@@ -109,7 +109,7 @@ which can help OpenAI to monitor and detect abuse. Learn more.
 
 #### Request Headers:
 
-"Content-Type: " 
+"Content-Type: " \
 Authorization: `Bearer ${OPENAI_API_KEY}`
 
 
