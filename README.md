@@ -6,8 +6,6 @@ This project provides the following analysis for email text:
 - **Sentiment**
 - **Sender Awaiting Response**
 
-Each list item is presented with a bullet point and surrounded by ** for bold formatting. This structure will render the list on separate lines when viewed in a Markdown viewer or rendered in a Markdown-compatible environment.
-
 ## Project Overview
 The project's goal is to process email text input and produce analysis in the three specified categories. 
 By leveraging OpenAI's text-davinci-003 model, it aims to provide detailed insights into the text data.
