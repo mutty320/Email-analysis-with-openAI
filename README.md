@@ -11,12 +11,11 @@ The project's goal is to process email text input and produce analysis in the th
 By leveraging OpenAI's text-davinci-003 model, it aims to provide detailed insights into the text data.
 
 ## Model Used
-**text-davinci-003 (Legacy):**
->The project uses the text-davinci-003 model.
->Which can do any language task with better quality, 
->longer output, and consistent instruction-following
->than the curie, babbage, or ada models. 
->Also supports some additional features such as inserting text.
+**GPT-3.5-Turbo-Instruct:**
+>The project uses the GPT-3.5-Turbo-Instruct.
+>This model can answer questions and directly complete text. 
+>This specialization enhances its ability to provide
+>precise and concise responses.
 
 ## Best practice
 Ensure that the input prompts are well-crafted to guide the model effectively and achieve the desired analysis results.
