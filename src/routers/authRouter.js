@@ -1,11 +1,9 @@
 const express = require("express");
 require("dotenv").config();
 
-const bodyParser = require("body-parser");
-var urlencodedParser = bodyParser.urlencoded({ extended: false });
 error = null
 const authRouter = express.Router();
-authRouter.route("/signIn").post(urlencodedParser, (req, res) => {
+authRouter.route("/signIn").post((req, res) => {
   const { user_name, api_secret_key } = req.body;
 
   if (

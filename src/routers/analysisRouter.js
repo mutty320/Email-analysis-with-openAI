@@ -2,9 +2,6 @@ const express = require("express");
 const axios = require("axios");
 const analysisRouter = express.Router();
 const path = require("path");
-//------------------------------
-const bodyParser = require("body-parser");
-var urlencodedParser = bodyParser.urlencoded({ extended: false });
 //=================================================================
 const openaiEndpoint = "https://api.openai.com/v1/completions"
 
@@ -23,7 +20,7 @@ async function connectApi(emailText, prompt, max_tokens) {
     const response = await axios.post(
       openaiEndpoint,
       {
-        model: "text-davinci-003",
+        model: "gpt-3.5-turbo-instruct",
         prompt: prompt + emailText,
         max_tokens: max_tokens,
       },
@@ -42,7 +39,7 @@ async function connectApi(emailText, prompt, max_tokens) {
   }
 }
 
-analysisRouter.route("/").post(urlencodedParser, async (req, res) => {
+analysisRouter.route("/").post(async (req, res) => {
   try {
     const emailText = req.body.textinput;
 
