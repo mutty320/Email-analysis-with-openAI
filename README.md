@@ -13,7 +13,7 @@ By leveraging OpenAI's text-davinci-003 model, it aims to provide detailed insig
 ## Model Used
 **GPT-3.5-Turbo-Instruct:**
 >The project uses the GPT-3.5-Turbo-Instruct. \
->This model can answer questions and directly complete text. 
+>This model can answer questions and directly complete text. \
 >This specialization enhances its ability to provide
 >precise and concise responses.
 
