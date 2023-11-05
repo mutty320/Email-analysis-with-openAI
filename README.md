@@ -17,7 +17,6 @@ By leveraging OpenAI's text-davinci-003 model, it aims to provide detailed insig
 >This specialization enhances its ability to provide
 >precise and concise responses.
 
-c
 Check out the models list here - [model list](https://platform.openai.com/docs/models/gpt-3-5)
 
 ## Best practice
