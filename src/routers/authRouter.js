@@ -10,6 +10,7 @@ authRouter.route("/signIn").post((req, res) => {
     user_name == process.env.USER_NAME &&
     api_secret_key == process.env.OPENAI_SECRET_KEY
   ) {
+    req.session.authHeader = api_secret_key
     res.render("submitText");
   } else {
       error = {

@@ -3,7 +3,7 @@ const axios = require("axios");
 const analysisRouter = express.Router();
 const path = require("path");
 //=================================================================
-const openaiEndpoint = "https://api.openai.com/v1/completions"
+const openaiEndpoint = "https://api.openai.com/v1/completions";
 
 const {
   headers,
@@ -12,8 +12,8 @@ const {
   await_prompt,
   summarize_tokens,
   sentiment_tokens,
-  awaitingResponse_tokens
-}  = require(path.join(__dirname, '..', 'utilities', 'constants'));
+  awaitingResponse_tokens,
+} = require(path.join(__dirname, "..", "utilities", "constants"));
 
 async function connectApi(emailText, prompt, max_tokens) {
   try {
@@ -39,6 +39,13 @@ async function connectApi(emailText, prompt, max_tokens) {
   }
 }
 
+analysisRouter.use((req, res, next) => {
+  if (req.session.authHeader == process.env.OPENAI_SECRET_KEY) {
+    next();
+  } else {
+    res.render("index", { error: { message: " Please sign in first" } });
+  }
+});
 analysisRouter.route("/").post(async (req, res) => {
   try {
     const emailText = req.body.textinput;
