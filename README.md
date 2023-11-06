@@ -8,7 +8,7 @@ This project provides the following analysis for email text:
 
 ## Project Overview
 The project's goal is to process email text input and produce analysis in the three specified categories. 
-By leveraging OpenAI's text-davinci-003 model, it aims to provide detailed insights into the text data.
+By leveraging OpenAI's GPT-3.5-Turbo-Instruct model, it aims to provide detailed insights into the text data.
 
 ## Model Used
 **GPT-3.5-Turbo-Instruct:**
